@@ -7,7 +7,7 @@ class Aibodyguard < Formula
   on_macos do
     on_arm do
       url "https://github.com/DungNguyen0209/aibodyguard/releases/download/v#{version}/aibodyguard-darwin-arm64"
-      sha256 "42aa277a7826bd6b72ed322c722ba25a2d4f133ed986d8a5110989fd4addd956"
+      sha256 "5bafb1b321b647de5be97fbd6de28a31cde53a8fc3a68d0dda858ff0b9e83eae"
 
       def install
         bin.install "aibodyguard-darwin-arm64" => "aibodyguard"
@@ -16,7 +16,7 @@ class Aibodyguard < Formula
 
     on_intel do
       url "https://github.com/DungNguyen0209/aibodyguard/releases/download/v#{version}/aibodyguard-darwin-amd64"
-      sha256 "bf9adee9f427cfd124059dbb5af48836e70e0cacc0db2c207e46b839c1ff02b4"
+      sha256 "61cc6ac90ec6fed7c261985f8ed05ba56dd2aa52756ca1f05162397e80500e79"
 
       def install
         bin.install "aibodyguard-darwin-amd64" => "aibodyguard"
@@ -27,7 +27,7 @@ class Aibodyguard < Formula
   on_linux do
     on_arm do
       url "https://github.com/DungNguyen0209/aibodyguard/releases/download/v#{version}/aibodyguard-linux-arm64"
-      sha256 "720045eb16e556ba8a852539ca333536c3c212057b527a9392621b394eb708f6"
+      sha256 "438277971aaed04d3134e35f01bc5f411d2a02ab8b363a97790bd59bb7eaa5c8"
 
       def install
         bin.install "aibodyguard-linux-arm64" => "aibodyguard"
@@ -36,7 +36,7 @@ class Aibodyguard < Formula
 
     on_intel do
       url "https://github.com/DungNguyen0209/aibodyguard/releases/download/v#{version}/aibodyguard-linux-amd64"
-      sha256 "97ca02a7e6f3745a711c99a8e5421967ee056e318c5c5b2d6a8ca31b2f6ddf49"
+      sha256 "4bc1c492386a5106706861c583386fce66c45fbefdc83be646e5df854c7425b9"
 
       def install
         bin.install "aibodyguard-linux-amd64" => "aibodyguard"
