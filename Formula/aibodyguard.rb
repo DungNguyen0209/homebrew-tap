@@ -1,13 +1,13 @@
 class Aibodyguard < Formula
   desc "Credential leak prevention wrapper for AI coding agents"
   homepage "https://github.com/DungNguyen0209/aibodyguard"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/DungNguyen0209/aibodyguard/releases/download/v#{version}/aibodyguard-darwin-arm64"
-      sha256 "5bafb1b321b647de5be97fbd6de28a31cde53a8fc3a68d0dda858ff0b9e83eae"
+      sha256 "87301b5eb92fac47aef0b44906c74ff14bacd7455752b7135fe9901cdb6d6820"
 
       def install
         bin.install "aibodyguard-darwin-arm64" => "aibodyguard"
@@ -27,7 +27,7 @@ class Aibodyguard < Formula
   on_linux do
     on_arm do
       url "https://github.com/DungNguyen0209/aibodyguard/releases/download/v#{version}/aibodyguard-linux-arm64"
-      sha256 "438277971aaed04d3134e35f01bc5f411d2a02ab8b363a97790bd59bb7eaa5c8"
+      sha256 "cf7219987292c3bc6cba35bca32a290229fb8a51421a16bdcc7390475e4e4766"
 
       def install
         bin.install "aibodyguard-linux-arm64" => "aibodyguard"
@@ -36,7 +36,7 @@ class Aibodyguard < Formula
 
     on_intel do
       url "https://github.com/DungNguyen0209/aibodyguard/releases/download/v#{version}/aibodyguard-linux-amd64"
-      sha256 "4bc1c492386a5106706861c583386fce66c45fbefdc83be646e5df854c7425b9"
+      sha256 "e870ed91fad89731606db1a2f333894898dfb17fe967db59e80fe9545e79e9a6"
 
       def install
         bin.install "aibodyguard-linux-amd64" => "aibodyguard"
